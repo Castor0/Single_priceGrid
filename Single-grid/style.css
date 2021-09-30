@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Karla;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    padding-left: 400px;
+}
+
+.container1 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+    width: 545.5px;
+    height: auto;
+}
+
+h1 {
+    color:  hsl(179, 62%, 43%);
+}h3 {
+    color: hsl(71, 73%, 54%);
+}
+p {
+    color:  hsl(218, 22%, 67%);
+}
+
+.container2 {
+    display: flex;
+    width: auto;
+    height: auto;
+   
+    
+
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    background: hsl(179, 62%, 43%);
+    padding:30px;
+    border-radius: 0 0 0px 10px;
+}
+
+.box1 h3 {
+    color: white;
+}
+
+
+.box1 h1 {
+    color: white;
+    margin: 5px;
+    padding-right: 20px;
+    
+}
+.box1 span {
+    display: flex;
+    padding-bottom: 5px; 
+}
+ 
+span {
+    color: white;
+    padding-bottom: 50px;
+}
+button {
+    background: hsl(71, 73%, 54%);
+    color: white;
+    width: 240;
+    height: 35px;
+    border: hsl(71, 73%, 54%);
+    border-radius: 5px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: hsl(179, 51%, 71%);
+    width: 244.5;
+    padding: 30px;
+    border-radius: 0 0 0px 0px;
+}
+
+h2 {
+    color: white;
+}
+ .box2 li {
+     list-style: none;
+     color: white;
+     margin: 0;
+     
+
+ }
+ 
